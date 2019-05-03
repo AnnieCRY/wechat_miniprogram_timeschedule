@@ -5,7 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
+    items: [
+      { name: 'Mon', value: '周一', checked: 'true' },
+      { name: 'Tue', value: '周二', checked: 'true' },
+      { name: 'Wed', value: '周三', checked: 'true' },
+      { name: 'THU', value: '周四', checked: 'true' },
+      { name: 'FRI', value: '周五', checked: 'true' },
+      { name: 'SAT', value: '周六' },
+      { name: 'SUN', value: '周日' }
+    ]
 
+  },
+  checkboxChange(e) {
+    console.log('checkbox发生change事件，携带value值为：', e.detail.value)
   },
 
   /**
