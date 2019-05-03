@@ -1,7 +1,7 @@
 <!--pages/create/create.wxml-->
-<text>pages/create/create.wxml</text>
+<text>选择时间</text>
 <checkbox-group bindchange="checkboxChange">
-  <label class="checkbox" wx:for="{{items}}">
+  <label class="checkbox" style="display:flex;" wx:for="{{items}}">
     <checkbox value="{{item.name}}" checked="{{item.checked}}" />
     {{item.value}}
   </label>

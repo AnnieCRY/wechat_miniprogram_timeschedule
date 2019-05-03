@@ -12,7 +12,7 @@ Page({
       { name: 'THU', value: '周四', checked: 'true' },
       { name: 'FRI', value: '周五', checked: 'true' },
       { name: 'SAT', value: '周六' },
-      { name: 'SUN', value: '周日' }
+      { name: 'SUN', value: '周日' },
     ]
 
   },
