@@ -13,11 +13,15 @@ Page({
       { name: 'FRI', value: '周五', checked: 'true' },
       { name: 'SAT', value: '周六' },
       { name: 'SUN', value: '周日' },
-    ]
-
+    ],
+    start_time: '9:00',
+    end_time: '18:00'
   },
   checkboxChange(e) {
     console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+  },
+  formSubmit(e) {
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
   },
 
   /**
